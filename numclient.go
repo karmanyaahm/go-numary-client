@@ -5,7 +5,7 @@ type Connection struct {
 	Server string
 }
 
-func Connect(server string) Ledger {
+func Connect(server string) Connection {
 	return Connection{Server: server}
 }
 
